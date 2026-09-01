@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shalika Shahana | Software Developer Portfolio</title>
+<meta name="description" content="B.Tech Information Technology student and aspiring Software Developer specializing in Python, JavaScript, full-stack web development, API integration, and AI-powered applications.">
+
+<meta property="og:title" content="Shalika Shahana | Software Developer Portfolio">
+<meta property="og:description" content="B.Tech Information Technology student and aspiring Software Developer specializing in Python, JavaScript, full-stack web development, API integration, and AI-powered applications.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">SS<span class="nav-brand-dot">.</span></a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Let's talk</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="hero-role">Software Developer &mdash; Full-Stack Developer</p>
+        <h1 class="hero-name">Hi, I'm<br>Shalika Shahana</h1>
+        <p class="hero-desc">
+          B.Tech Information Technology student passionate about building
+          web applications, full-stack solutions, and AI-powered applications.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/resume.pdf" class="btn btn-secondary" id="resume-btn" download>Download Resume</a>
+        </div>
+
+        <div class="hero-links">
+          <a href="https://github.com/shalikashahana" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.58.24 2.75.12 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.7 5.38-5.27 5.67.41.36.78 1.08.78 2.17v3.22c0 .3.2.66.79.55A10.99 10.99 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/shalikashahana8/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          </a>
+          <a href="mailto:shalikashahana@gmail.com" aria-label="Send email">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring">
+          <img src="assets/profile.png" alt="Shalika Shahana" class="hero-photo" loading="eager">
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+
+      <div class="about-body">
+        <p>
+          I'm a B.Tech Information Technology student building toward a career
+          as a Software Developer / Full-Stack Developer. Most of my work sits
+          across the stack &mdash; Python and JavaScript on the logic side,
+          React.js and Angular on the interface side, with Firebase, Supabase
+          and SQL handling data and persistence.
+        </p>
+        <p>
+          I've shipped 7+ working projects on my own, from a chess game built
+          with plain JavaScript to an AI-powered language learning platform
+          that integrates the Gemini API. I care about actually deploying
+          what I build &mdash; every live project here runs on Netlify, Render
+          or GitHub Pages, not just in a local dev environment.
+        </p>
+        <p>
+          Right now I'm looking for an internship or entry-level role where I
+          can keep building real software, work closely with a product team,
+          and grow my skills in full-stack development and applied AI.
+        </p>
+
+        <div class="about-facts">
+          <div class="about-fact">
+            <span class="about-fact-label">Focus</span>
+            <span>Full-stack web development</span>
+          </div>
+          <div class="about-fact">
+            <span class="about-fact-label">Currently</span>
+            <span>B.Tech IT, 2023 &ndash; 2027</span>
+          </div>
+          <div class="about-fact">
+            <span class="about-fact-label">Looking for</span>
+            <span>Software Dev / Full-Stack internship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Technical skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>React.js</li>
+            <li>Angular</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Backend / APIs</h3>
+          <ul>
+            <li>Python</li>
+            <li>REST API</li>
+            <li>API Integration</li>
+            <li>AI Integration</li>
+            <li>Gemini API</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Database</h3>
+          <ul>
+            <li>Firebase</li>
+            <li>Supabase</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Deployment</h3>
+          <ul>
+            <li>Netlify</li>
+            <li>Render</li>
+            <li>GitHub Pages</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED PROJECT ================= -->
+  <section class="section section-alt" id="featured">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Featured project</h2>
+      </div>
+
+      <div class="featured">
+        <div class="featured-text">
+          <p class="featured-eyebrow">Mozhify</p>
+          <h3>AI-powered language learning platform</h3>
+          <p class="featured-desc">
+            Mozhify is a web application focused on English vocabulary and
+            communication practice, built end-to-end with an AI layer for
+            interactive, personalized learning.
+          </p>
+
+          <ul class="featured-features">
+            <li>Frontend built in React.js, connected to Firebase and Supabase for backend and data services</li>
+            <li>Gemini API integrated for AI-powered learning functionality</li>
+            <li>Interactive learning features driven by API integration</li>
+            <li>Deployed and live on Netlify</li>
+          </ul>
+
+          <div class="featured-stack">
+            <span>Python</span>
+            <span>React.js</span>
+            <span>Firebase</span>
+            <span>Supabase</span>
+            <span>Gemini API</span>
+          </div>
+
+          <div class="featured-actions">
+            <a href="https://mozhify.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="featured-visual" aria-hidden="true">
+          <div class="featured-visual-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="featured-visual-body">
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+            <div class="line l3"></div>
+            <div class="chip">Gemini API</div>
+            <div class="line l4"></div>
+            <div class="line l5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-head section-head-row">
+        <h2>Projects</h2>
+        <div class="filter-bar" role="group" aria-label="Filter projects by technology">
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+          <button class="filter-btn" data-filter="javascript">JavaScript</button>
+          <button class="filter-btn" data-filter="react">React</button>
+          <button class="filter-btn" data-filter="angular">Angular</button>
+          <button class="filter-btn" data-filter="ai">AI</button>
+        </div>
+      </div>
+
+      <div class="project-grid" id="project-grid">
+
+        <article class="project-card" data-tags="python react ai">
+          <div class="project-card-top">
+            <h3>Mozhify</h3>
+            <span class="project-tags">Python &middot; React.js &middot; Gemini API</span>
+          </div>
+          <p>AI-powered language learning platform for English vocabulary and communication practice.</p>
+          <div class="project-actions">
+            <a href="https://mozhify.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="angular">
+          <div class="project-card-top">
+            <h3>RedBus Clone</h3>
+            <span class="project-tags">Angular</span>
+          </div>
+          <p>A responsive bus booking interface inspired by online bus reservation platforms, with reusable Angular components.</p>
+          <div class="project-actions">
+            <a href="https://celebrated-brigadeiros-88148f.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="python react">
+          <div class="project-card-top">
+            <h3>Smart File Organizer</h3>
+            <span class="project-tags">Python &middot; React.js</span>
+          </div>
+          <p>Organizes files automatically by type and category, with a Python backend and a React.js interface.</p>
+          <div class="project-actions">
+            <span class="project-actions-none">No live demo</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="python react">
+          <div class="project-card-top">
+            <h3>Recipe Finder</h3>
+            <span class="project-tags">Python &middot; React.js &middot; Firebase</span>
+          </div>
+          <p>A recipe discovery web app built in React.js, with Firebase handling application data.</p>
+          <div class="project-actions">
+            <a href="https://recipeyyy-finder.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="javascript">
+          <div class="project-card-top">
+            <h3>Wizard Chess</h3>
+            <span class="project-tags">HTML &middot; CSS &middot; JavaScript</span>
+          </div>
+          <p>An interactive browser-based chess game with gameplay logic written in vanilla JavaScript.</p>
+          <div class="project-actions">
+            <a href="https://shalikashahana.github.io/hp-chess/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="javascript">
+          <div class="project-card-top">
+            <h3>Mini Translator</h3>
+            <span class="project-tags">HTML &middot; CSS &middot; JavaScript</span>
+          </div>
+          <p>A simple, focused web-based translation tool with an interactive interface.</p>
+          <div class="project-actions">
+            <span class="project-actions-none">No live demo</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="javascript">
+          <div class="project-card-top">
+            <h3>Thirukkural Web App</h3>
+            <span class="project-tags">HTML &middot; CSS &middot; JavaScript</span>
+          </div>
+          <p>A web application for browsing and exploring Thirukkural content, built and deployed with GitHub Pages.</p>
+          <div class="project-actions">
+            <a href="https://shalikashahana.github.io/thirukkural/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="project-empty" id="project-empty" hidden>No projects match this filter yet.</p>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Internship &amp; training</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-date">27 Jun 2025 &ndash; 14 Jul 2025 &middot; 15 days</p>
+            <h3>Python Development Intern</h3>
+            <p class="timeline-org">VEI Technologies, Chennai</p>
+            <p>Gained practical exposure to Python development and applied Python and full-stack web development concepts through hands-on tasks.</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-date">27 May 2025 &ndash; 13 Jun 2025</p>
+            <h3>Full-Stack Web Development Intern</h3>
+            <p class="timeline-org">Mind IT, Trichy</p>
+            <p>Worked across frontend and backend development, building practical experience through implementation-based tasks.</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-date">December 2025</p>
+            <h3>Full-Stack Web Development Training</h3>
+            <p class="timeline-org">ElevanceSkills</p>
+            <p>Completed hands-on training covering frontend, backend, and full web application development concepts.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= EDUCATION ================= -->
+  <section class="section" id="education">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+
+      <div class="edu-grid">
+        <div class="edu-card edu-card-primary">
+          <p class="edu-years">2023 &ndash; 2027</p>
+          <h3>B.Tech &mdash; Information Technology</h3>
+          <p class="edu-school">Indra Ganesan College of Engineering</p>
+          <p class="edu-cgpa">CGPA: 8.08</p>
+        </div>
+
+        <div class="edu-card">
+          <p class="edu-years">2022 &ndash; 2023</p>
+          <h3>Higher Secondary Education</h3>
+          <p class="edu-school">St. Joseph Higher Secondary School</p>
+        </div>
+
+        <div class="edu-card">
+          <p class="edu-years">2020 &ndash; 2021</p>
+          <h3>SSLC</h3>
+          <p class="edu-school">St. Joseph Higher Secondary School</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CERTIFICATIONS ================= -->
+  <section class="section section-alt" id="certifications">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-item">
+          <h3>Python for Beginners</h3>
+          <p>Simplilearn &middot; 2 November 2024</p>
+        </div>
+        <div class="cert-item">
+          <h3>Python Fundamentals for Beginners</h3>
+          <p>Great Learning</p>
+        </div>
+        <div class="cert-item">
+          <h3>Design for Impact: Power of UI/UX</h3>
+          <p>J.J. College of Engineering, Trichy &middot; 20&ndash;21 Feb 2025</p>
+        </div>
+        <div class="cert-item">
+          <h3>Artificial Intelligence</h3>
+          <p>AICTE International Workshop &middot; 22 March 2025</p>
+        </div>
+        <div class="cert-item">
+          <h3>AI, Data Science &amp; Cyber Security</h3>
+          <p>7th ANRF Sponsored International Conference &middot; 3&ndash;4 April 2025</p>
+        </div>
+        <div class="cert-item">
+          <h3>Generative AI &amp; RAG</h3>
+          <p>Kongu Engineering College, Erode &middot; 12 September 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="section-inner contact-inner">
+      <div class="section-head">
+        <h2>Let's connect</h2>
+      </div>
+
+      <p class="contact-lead">
+        Open to Software Development and Full-Stack Development internship opportunities.
+      </p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:shalikashahana@gmail.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">shalikashahana@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+918122260200">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+91 81222 60200</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/shalikashahana8/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">/in/shalikashahana8</span>
+        </a>
+        <a class="contact-card" href="https://github.com/shalikashahana" target="_blank" rel="noopener noreferrer">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">/shalikashahana</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p>&copy; <span id="year"></span> Shalika Shahana. Built with HTML, CSS &amp; JavaScript.</p>
+    <div class="footer-links">
+      <a href="https://github.com/shalikashahana" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/shalikashahana8/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:shalikashahana@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
